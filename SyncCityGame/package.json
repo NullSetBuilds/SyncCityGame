@@ -17,15 +17,13 @@
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "typescript": "^5.0.4",
-    "vite": "^4.2.0"
+    "typescript": "^5.0.4"
   },
   "scripts": {
-    "dev": "cd web && npm run dev",
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "web-init": "npx react-native-web init web"
+    "web-init": "npx react-native-web init web",
+    "dev": "cd web && npm run dev"
   }
 }

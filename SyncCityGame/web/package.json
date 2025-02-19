@@ -5,7 +5,9 @@
     "start": "react-native-web start",
     "dev": "vite"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-native-web": "^0.19.13"
+  },
   "devDependencies": {
     "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.7",
