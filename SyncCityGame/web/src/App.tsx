@@ -1,14 +1,15 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 
-// Import the DiceRoller component
+// Import the DiceRoller and Homescreen components
 import DiceRoller from './diceroller';
+import Homescreen from './homescreen';
 
 const App: React.FC = () => {
   return (
     <SafeAreaView>
-      {/* Render the DiceRoller component */}
-      <DiceRoller />
+      {/* Render the Homescreen component */}
+      <Homescreen />
     </SafeAreaView>
   );
 };
